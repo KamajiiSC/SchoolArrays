@@ -14,6 +14,10 @@ public class Arrays {
 			System.out.println("Enter number " + (i +1 ) + " : ");
 			input[i] = scan.nextInt();
 		}
+		
+		for(int i = 0; i< counter.length; i++) {
+			
+		}
 	}
 
 }
