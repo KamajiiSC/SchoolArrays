@@ -10,12 +10,14 @@ public class Arrays {
 		
 		Scanner scan = new Scanner(System.in);
 		
+		//Get Input
 		for(int i = 0;  i < input.length; i++) {
 			System.out.println("Enter number " + (i +1 ) + " : ");
 			input[i] = scan.nextInt();
 		}
 		
-		for(int i = 0; i< counter.length; i++) {
+		//Increment counter array indexes corresponding to input
+		for(int i = 0; i< input.length; i++) {
 			
 		}
 	}
