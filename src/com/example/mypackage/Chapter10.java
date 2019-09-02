@@ -1,9 +1,12 @@
 package com.example.mypackage;
 
+import java.util.Scanner;
+
 public class Chapter10 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Brandon Schaen
+		Scanner scan = new Scanner(System.in);
 
 	}
 
