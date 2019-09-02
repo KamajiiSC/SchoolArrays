@@ -18,7 +18,7 @@ public class Arrays {
 		
 		//Increment counter array indexes corresponding to input
 		for(int i = 0; i< input.length; i++) {
-			
+			counter[input[i]]++;
 		}
 	}
 
