@@ -11,10 +11,22 @@ public class Chapter10 {
 		int input = 0;
 		//Get Input
 		for(int i = 0;  i < 10; i++) {
+			
 			System.out.println("Enter number " + (i +1 ) + " : ");
-			input += Integer.parseInt(scan.nextLine());
+			
+			//try to parse int
+			try {
+				input += Integer.parseInt(scan.nextLine());
+			}
+			//Print a statement and decrement the loop by one so you cant pass this number
+			catch(NumberFormatException exception) {
+				System.out.println("Please enter a valid integer");
+				i--;
+			}
+			
 		}
 		
+		//Prints out the numbers averaged by 10 
 		System.out.println(input / 10);
 	}
 
