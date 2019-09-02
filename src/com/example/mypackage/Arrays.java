@@ -9,6 +9,10 @@ public class Arrays {
 		int[] input = new int[10];
 		
 		Scanner scan = new Scanner(System.in);
+		
+		for(int i = 0;  i < input.length; i++) {
+			
+		}
 	}
 
 }
