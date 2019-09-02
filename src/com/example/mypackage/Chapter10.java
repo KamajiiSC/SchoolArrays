@@ -12,8 +12,10 @@ public class Chapter10 {
 		//Get Input
 		for(int i = 0;  i < 10; i++) {
 			System.out.println("Enter number " + (i +1 ) + " : ");
-			 input = scan.nextInt();
+			input += Integer.parseInt(scan.nextLine());
 		}
+		
+		System.out.println(input / 10);
 	}
 
 }
